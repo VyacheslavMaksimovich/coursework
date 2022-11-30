@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-    margin: 0px 99px;
+    margin: 0;
+ 
 }
 
 .header-line {
@@ -32,7 +33,7 @@ body {
     color: #765603;
     text-decoration: underline;
 }
-.nav-item-right {
+.nav-item-right-margin {
     margin-right: 70px;
 }
 
@@ -40,7 +41,7 @@ body {
     font-weight: 600;
 }
 
-.btn-item {
+.header-btn {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
@@ -49,9 +50,10 @@ body {
     border-radius: 7px; 
     padding: 20px 45px;
     transition: all 0.3s;
+    margin-left: 50px;
 }
 
-.btn-item:hover {
+.header-btn:hover {
     background: linear-gradient(202.11deg, #003E42 -8.97%, #7BB486 144.81%);
     color: #000;
 }
@@ -60,26 +62,18 @@ body {
     margin-right: 120px;
 }
 
-.header-right-place {
+.header-line-right-place {
     display: flex;
     margin-left: 85px;
 }
 
-.btn-header {
-    margin-left: 50px;
-}
-
 /* Это разделение между описанием шапки и блока 1*/
 
-.block1 {
+.block1_bg_image {
     background-image: url("images/header-bg-image-2.png") ;
     background-repeat: no-repeat;
-    position: absolute; 
-    margin: auto; 
-    left: 0px;
-    right: 0px;
     width: 1839px;
-    height: 100%;
+    height: 930px;
     background-size: 100%;
 }
 
@@ -107,7 +101,7 @@ body {
     margin: 32px 0px;
 }
 
-.block1_btn_item {
+.block1_btn {
     font-weight: 700;
     font-size: 16px;
     padding: 20px 42px;
@@ -119,6 +113,14 @@ body {
     text-decoration: none;
 }
 
-.block1_btn_item:hover {
+.block1_btn:hover {
     background: rgba(0, 0, 0, 0.7);    
+}
+
+.content {
+    width: 1839px;
+    height: 3000px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
