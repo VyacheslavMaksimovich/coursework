@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E8E8E8;
+    margin: 0px;
+}
+
+.container {
+    margin: 0px 99px;
+}
+
+.header-line {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.header-logo {
+    margin-right: 110px;
+}
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: color 0.25s linear;
+}
+
+.nav-item:hover {
+    color: #765603;
+    text-decoration: underline;
+}
+.nav-item-right {
+    margin-right: 70px;
+}
+
+.phone-number {
+    font-weight: 600;
+}
+
+.btn-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(263.12deg, #003E42 4.05%, #7BB486 96.29%);
+    border-radius: 7px; 
+    padding: 20px 45px;
+    transition: all 0.3s;
+}
+
+.btn-item:hover {
+    background: linear-gradient(202.11deg, #003E42 -8.97%, #7BB486 144.81%);
+    color: #000;
+}
+
+.last {
+    margin-right: 120px;
+}
+
+.header-right-place {
+    display: flex;
+    margin-left: 85px;
+}
+
+.btn-header {
+    margin-left: 50px;
+}
+
+/* Это разделение между описанием шапки и блока 1*/
+
+.block1 {
+    background-image: url("images/header-bg-image-2.png") ;
+    background-repeat: no-repeat;
+    position: absolute; 
+    margin: auto; 
+    left: 0px;
+    right: 0px;
+    width: 1839px;
+    height: 100%;
+    background-size: 100%;
+}
+
+.block1_container {
+    color:#fff;
+    padding-left: 200px;
+    padding-top: 300px; 
+    display: inline-block;
+}
+
+.block1_title {
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.block1_subtitle {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.block1_text_under_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 32px 0px;
+}
+
+.block1_btn_item {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 42px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    display: inline-block;
+    transition: all 0.3s;
+    color:#fff;
+    text-decoration: none;
+}
+
+.block1_btn_item:hover {
+    background: rgba(0, 0, 0, 0.7);    
+}
