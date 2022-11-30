@@ -4,11 +4,6 @@ body {
     margin: 0px;
 }
 
-.container {
-    margin: 0;
- 
-}
-
 .header-line {
     padding: 10px 0px;
     display: flex;
@@ -33,8 +28,14 @@ body {
     color: #765603;
     text-decoration: underline;
 }
+
 .nav-item-right-margin {
     margin-right: 70px;
+}
+
+.header-line-right-place {
+    display: flex;
+    margin-left: 85px;
 }
 
 .phone-number {
@@ -58,16 +59,15 @@ body {
     color: #000;
 }
 
-.last {
-    margin-right: 120px;
-}
-
-.header-line-right-place {
-    display: flex;
-    margin-left: 85px;
-}
-
 /* Это разделение между описанием шапки и блока 1*/
+
+.content {
+    width: 1839px;
+    height: 3000px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 .block1_bg_image {
     background-image: url("images/header-bg-image-2.png") ;
@@ -115,12 +115,4 @@ body {
 
 .block1_btn:hover {
     background: rgba(0, 0, 0, 0.7);    
-}
-
-.content {
-    width: 1839px;
-    height: 3000px;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
