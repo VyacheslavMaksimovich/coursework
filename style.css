@@ -227,3 +227,56 @@ body {
 .block_gallery_container {
     padding-left: 500px;
 }
+
+.block_end {
+    background-image: url("images/Раздел_Подвал.png");
+    height: 675px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_end_text {
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 150px;
+    display: inline-block;
+}
+
+.block_end_title {
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+}
+
+.block_end_text1, .block_end_text2, .block_end_text3, .block_end_text4 {
+    color: white;
+    margin-top: 45px;
+}
+
+.map {
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+#map_845700369 {
+    border-radius: 21px;
+}
+
+.author_information {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-image: url("images/bg_author.png");
+    width: 1839px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.author_link {
+    color: #42aaff;
+}
