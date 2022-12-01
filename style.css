@@ -154,6 +154,13 @@ body {
 .cards_item {
     width: 100%;
     margin-top: 30px;
+    background-color: #C5C5C5;
+    border-radius: 21px;
+    transition: background-color 0.3s;
+}
+
+.cards_item:hover {
+    background-color: #8C877A;
 }
 
 /* Это разделение*/
