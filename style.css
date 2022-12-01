@@ -207,3 +207,23 @@ body {
 .event_img:hover {
     background-color: #8C877A;
 }
+
+.line {
+    width: 100%;
+}
+
+/* Это разделение*/
+
+.block_gallery {
+    margin: 75px 200px 100px 200px;
+}
+
+.block_gallery_image {
+    background-image: url("images/Раздел_Галерея.png");
+    height: 910px;
+    background-size: 100%;
+}
+
+.block_gallery_container {
+    padding-left: 500px;
+}
