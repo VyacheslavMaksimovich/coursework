@@ -177,4 +177,26 @@ body {
 
 /* Это разделение*/
 
+.block_events {
+    margin: 100px 200px 75px 200px;
+}
 
+.block_events_items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event_box {
+    width: 340px;
+}
+
+.event_img {
+    width: 100%;
+    border-radius: 120px 120px 21px 21px;
+    transition: background-color 0.3s;
+}
+
+.event_img:hover {
+    background-color: #8C877A;
+}
